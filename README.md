@@ -17,13 +17,7 @@ Requires Node.js 18+.
 npm start
 ```
 
-## Test
-```
-npm test
-```
-
 ## Structure
 - `index.js` – CLI I/O, timers, game flow
 - `game.js` – pure helpers (parsing, scoring, shuffle) using `map`, `filter`, `reduce`
 - `questions.js` – question bank (array of objects)
-- `game.test.js` – unit tests using `node:test`
